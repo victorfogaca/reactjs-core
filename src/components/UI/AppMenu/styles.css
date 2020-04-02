@@ -1,0 +1,32 @@
+#app-navbar
+{
+    border-bottom: 1px solid #dacfcf;
+}
+.app-navbar-animate-show
+{
+    top: 0px;
+    animation: animation-top-menu-show 0.5s ease-out;
+}
+@keyframes animation-top-menu-show
+{
+    0% {
+        top: -100px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+.app-navbar-animate-hide
+{
+    animation: animation-top-menu-hide 0.5s ease-in;
+}
+@keyframes animation-top-menu-hide
+{
+    from {
+        top: 0px;
+    }
+    to {
+        top: -100px;
+    }
+
+}

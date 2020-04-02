@@ -1,0 +1,30 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    background-color: #f0f2f5!important;
+}
+.main-wide-content-system
+{
+    background: #fff!important;
+    padding:24px 0;
+}
+.main-content-system
+{
+    padding: 0 24px;
+    min-height: 500px!important;
+}
+.page-header-body
+{
+    background-color: #fff!important;
+    margin: 20px 0 4px 0!important;
+}
+
+.flex-row
+{
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+}
+.d-flex
+{
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
